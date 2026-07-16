@@ -1,0 +1,15 @@
+# Ignore HPC scripts and output files
+*.sh
+*.out
+*.log
+
+# Ignore large data files
+*.parquet
+*.csv
+*.pdb
+*.nc
+*.top
+
+# Ignore temporary files
+*.tmp
+*.in
