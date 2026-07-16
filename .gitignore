@@ -1,3 +1,6 @@
+# Ignore IDE and editor files
+.vscode/
+
 # Ignore HPC scripts and output files
 *.sh
 *.out
@@ -13,3 +16,7 @@
 # Ignore temporary files
 *.tmp
 *.in
+*.dat
+
+# Ignore data directories
+Data/dihedrals_parquet/
